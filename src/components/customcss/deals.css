@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+
+.deals-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.deals-top h3{
+    margin-left: 20px;
+}
+
+.deals-card-container{
+    display: flex;
+    justify-content:space-between;
+    margin: 30px 20px;
+}
+
+.deals-top a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+.deals-top > a:hover{
+    color: #3bb77e;
+}

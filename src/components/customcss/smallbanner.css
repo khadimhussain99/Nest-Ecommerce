@@ -1,0 +1,26 @@
+.small-banner{
+    width: 3010px;
+    height: 100px;
+    background-color: #f4f6fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.small-banner img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.small-banner div h3{
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.small-banner div p{
+    font-size: 16px;
+    color: #adadad;
+}

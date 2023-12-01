@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+
+}
+
+.popular-products{
+    width: 98%;
+    height: 1000px;
+    margin: 20rem 12px 0;
+    padding: 25px 0;
+}
+
+.popular-products-top{
+    margin: 0 0 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-products-top ul{
+    list-style: none;
+    display: flex;
+}
+
+.popular-products-top ul li button{
+    font-size: 14px;
+    font-weight: 600;
+    background: transparent;
+    border: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.popular-products-top ul li button:hover{
+    color: #3bb77e;
+}
+
+.popular-products-main{
+    display: flex; 
+    flex-wrap: wrap;
+    padding: 0 10px;
+    gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .popular-products-top{
+        margin: 0 0 44px 12px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .popular-products-top  h1{
+        font-size: 30px;
+    }
+    
+    .popular-products-top ul li button{
+        font-size: 12px;
+    }
+
+
+
+}
+

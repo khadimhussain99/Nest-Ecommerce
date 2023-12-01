@@ -1,0 +1,53 @@
+.op-selling{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 16px;
+}
+
+.op-selling img{
+    width: 82px;
+    height: 82px;
+    background: transparent;
+}
+
+.op-details{
+    height: 213px;
+    height: 97px;
+    padding: 0px 12px;
+}
+
+.op-name{
+    height: 40px;
+    font-weight: bold;
+}
+
+.op-rating{
+    color: #7e7e7e;
+    font-size: 14px;
+    margin: 0px 0 5px;
+    display: flex;
+    align-items: center;
+}
+
+.op-rating svg{
+    width: 12px;
+}
+
+.op-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #3bb77e;
+    font-size: 18px;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.op-price div span{
+    font-size: 14px;
+    color: #adadad;
+    margin-left: 5px;
+    text-decoration: line-through;
+}

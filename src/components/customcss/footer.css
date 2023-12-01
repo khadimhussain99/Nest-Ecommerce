@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 12px;
+    box-shadow: 0px 5px 5px 5px  #3bb77e;
+}
+
+.left-footer{
+    width: 300px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #7e7e7e;
+}
+
+.left-footer span{
+    color: #3bb77e;
+    font-weight: bold;
+}
+
+.center-footer, .center-footer div, .center-footer div div{
+    display: flex;
+}
+
+.center-footer div div{
+    height: 50px;
+    flex-direction: column;
+}
+.center-footer div{
+    width: 200px;
+}
+
+.center-footer div img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.center-footer div div p{
+    height: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #3bb77e;
+}
+
+.center-footer div div span{
+    font-size: 12.5px;
+    font-weight: lighter;
+    color: #7e7e7e;
+}
+
+.right-footer, .right-footer div{
+    display: flex;
+}
+
+.right-footer{
+    flex-direction: column;
+}
+
+.right-footer h5 {
+    margin: 5px 15px 0 0;
+}
+
+.right-footer span{
+    display: block;
+    font-size: 13px;
+    color: #7e7e7e;
+}
+
+.right-footer div a{
+    background-color: #3bb77e;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.right-footer div a img{
+    width: 20px;
+    height: 20px;
+}

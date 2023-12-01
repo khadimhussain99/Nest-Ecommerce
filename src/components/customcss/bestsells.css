@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+}
+
+.best-sell-cont{
+    margin: 0 12px;
+}
+
+.best-sells-top{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.best-sells-top > ul{
+    list-style: none;
+    display: flex;
+    margin-right: 30px;
+}
+
+.best-sells-top > ul > li > button{
+    font-size: 14px;
+    font-weight: bold;
+    background: transparent;
+    border: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.best-sells-top > ul > li > button:hover{
+    color: #3bb77e;
+}
+
+.best-sells{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-container{
+    position: relative;
+    display: inline-block;
+}
+
+.banner-container > div{
+    position: absolute; 
+    width: 280px;
+    height: 100;
+    top: 45%; 
+    left: 50%; 
+    right: 0;
+    bottom: 0;
+    transform: translate(-50%, -50%); 
+    color: #253d4e;
+}
+
+.banner-container > div > h2{
+    font-size: 40px;
+    margin-bottom: 8rem;
+}
+
+.banner-container > div > a{
+    width: 90px;
+    height: 30px;
+    background-color: #3bb77e;
+    padding: 8px 4px 8px 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.banner-container > div > a:hover{
+    background-color: rgb(255, 238, 0);
+}
+
+.banner-4{
+    margin-top: 40px;
+    width: 380px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.bs-swiper{
+    width: 75%;
+    height: 550px;
+}
+
+.bs-swiper-slider{
+    background: transparent;
+}
+
+@media screen and (max-width: 768px) {
+
+    .best-sells-top{
+        margin: 15rem 12px 0 12px;
+    }
+
+    .banner-container{
+        display: none;
+    }
+
+    .banner-container div h2{
+        font-size: 11px;
+    }
+
+    .best-sells-top > ul > li > button{
+        font-size: 12px;
+    }
+    
+    .bs-swiper{
+        width: 100%;
+        height: 550px;
+    }
+}

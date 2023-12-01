@@ -1,0 +1,155 @@
+.bs-product{
+    width: 220px;
+    height: 470px;
+    padding: 30px 10px 0 20px;
+    border-radius: 15px;
+    border: 1px solid #e4e3e3;
+    text-align: left;
+}
+
+.bs-product > img{
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.bs-type{
+    color: #7e7e7e;
+    margin-bottom: 10px;
+}
+
+.bs-name{
+    width: 150px;
+    height: 72px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.bs-rating{
+    color: #7e7e7e;
+    font-size: 12px;
+    margin: 10px 0 3px;
+    display: flex;
+    align-items: center;
+}
+
+.bs-by{
+    color: #7e7e7e;
+}
+
+.bs-by > span{
+    color: #3bb77e;
+}
+
+.bs-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #3bb77e;
+    font-size: 14px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.bs-price > a{
+    text-decoration: none;
+    background-color: #def9ec;
+    color: #3bb77e;
+    padding: 0px 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.bs-price > div > span{
+    font-size: 14px;
+    color: #adadad;
+    margin-left: 5px;
+    text-decoration: line-through;
+
+}
+
+.progress-bar{
+    width: 100%;
+    height: 7px;
+    border-radius: 10px;
+    background-color: grey;
+    margin-top: 10px;
+}
+
+.progress-bar > div{
+    width: 70%;
+    height: 100%;
+    background-color: #3bb77e;
+    border-radius: 12px;
+}
+
+.sold{
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+a#cart-btn{
+    width: 100%px;
+    height: 30px;
+    background-color: #3bb77e;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 30px 10px 40px ;
+}
+
+a#cart-btn:hover{
+    background-color: rgb(255, 238, 0);
+}
+
+@media screen and (max-width: 768px) {
+
+    .bs-product{
+        width: 200px;
+        height: 430px;
+    }
+    
+    .bs-product > img{
+        width: 130px;
+        height: 130px;
+        display: block;
+        margin: 0 auto 10px;
+    }
+    
+    .bs-type{
+        font-size: 12px;
+    }
+    
+    .bs-name{
+        width: 150px;
+        font-size: 14px;
+        height: 45px;
+    }
+    
+    .bs-rating svg{
+        width: 12px;
+        height: 12px;
+        margin: 0;
+    }
+    
+    .progress-bar{
+        height: 5px;
+        background-color: rgb(230, 230, 230);
+    }
+    
+    .sold{
+        font-size: 12px;
+        margin: 10px 0 20px;
+    }
+    
+    a#cart-btn{
+        background-color: #3bb77e;
+        padding: 10px 28px;
+    }
+    
+
+}

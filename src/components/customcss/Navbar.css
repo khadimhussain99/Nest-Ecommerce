@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.res-top{
+    display: none;
+}
+
+.nav-res-burger, .nav-res-right{
+    display: none;
+}
+
+.nav-wrapper{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #e4e3e3;
+    border-bottom: 1px solid #e4e0e0;
+}
+
+.nav-logo{
+    width: 150px;
+}
+
+.nav-right{
+    width: 80%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-search{
+    width: 600px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e4e3e3;
+    border-radius: 5px;
+}
+
+.nav-search button{
+    border: none;
+    background-color: transparent;
+    padding: 0 30px;
+    color: #7e7e7e;
+    margin: none;
+}
+
+.nav-search input{
+    border: none;
+    background-color: transparent;
+    flex: 1;
+    outline: none;
+    font-size: 12px;
+    border-left: 1px solid grey;
+    padding-left: 10px;
+}
+
+.nav-search svg{
+    padding-right: 10px;
+}
+
+.nav-ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-ul li{
+    font-size: 15px;
+    padding: 0 8px;
+    cursor: pointer;
+    color: #7e7e7e;
+}
+.li-svg{
+    display: flex;
+    
+    align-items: center;
+}
+
+.li-svg img{
+    height: 20px;
+    margin-right: 5px;
+}
+
+.top-content{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: px;
+}
+
+.right li, .left li{
+    
+    list-style: none;
+    border-left: 1px solid #7e7e7e;
+    color: #7e7e7e;
+}
+
+#diff-help{
+    border-left: none;
+}
+
+#diff-phone{
+    border-left: none;
+    color: #3bb77e;
+}
+
+li{
+    font-size: 12px;
+    height: 8px;
+    line-height: 0.5;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+.right, .left{
+    display: flex;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    /* Styles for devices with a maximum width of 768 pixels */
+    .right,.left{
+        display: none;
+    }
+    .res-top{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        background-color: #3bb77e;
+        color: #FFF;
+        font-weight: bold;
+        font-size: 12px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-right{
+        display: none;
+    }
+
+    .nav-wrapper{
+        justify-content: space-between;
+        padding: 0 24px;
+    }
+
+    .nav-res-burger, .nav-res-right{
+        display: block;
+    }
+
+    .nav-res-right img{
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+    }
+}
